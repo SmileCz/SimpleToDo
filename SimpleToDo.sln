@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleToDo.Domain", "src\SimpleToDo.Domain\SimpleToDo.Domain.csproj", "{5D62300E-08F1-4CBC-95F1-EB16B51372EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleToDo.Application", "src\SimpleToDo.Application\SimpleToDo.Application.csproj", "{2E6997A3-383F-473D-94B2-2CC1029E73F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleToDo.Infrastructure", "src\SimpleToDo.Infrastructure\SimpleToDo.Infrastructure.csproj", "{D74DDB3E-D18C-492C-A686-1B41CF5733D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleToDo.API", "src\SimpleToDo.API\SimpleToDo.API.csproj", "{991DE812-87A5-460E-B522-1E9F8E3E1890}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D62300E-08F1-4CBC-95F1-EB16B51372EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D62300E-08F1-4CBC-95F1-EB16B51372EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D62300E-08F1-4CBC-95F1-EB16B51372EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D62300E-08F1-4CBC-95F1-EB16B51372EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6997A3-383F-473D-94B2-2CC1029E73F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6997A3-383F-473D-94B2-2CC1029E73F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6997A3-383F-473D-94B2-2CC1029E73F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6997A3-383F-473D-94B2-2CC1029E73F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74DDB3E-D18C-492C-A686-1B41CF5733D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74DDB3E-D18C-492C-A686-1B41CF5733D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74DDB3E-D18C-492C-A686-1B41CF5733D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74DDB3E-D18C-492C-A686-1B41CF5733D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991DE812-87A5-460E-B522-1E9F8E3E1890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991DE812-87A5-460E-B522-1E9F8E3E1890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991DE812-87A5-460E-B522-1E9F8E3E1890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991DE812-87A5-460E-B522-1E9F8E3E1890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
