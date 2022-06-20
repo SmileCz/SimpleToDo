@@ -6,7 +6,7 @@ public class EmptyTodoItemTitleException : SimpleToDoException
 
 {
     public EmptyTodoItemTitleException()
-    :base("Todo Item Title is empty")
+    :base("Todo Item Title is empty or whitespaces")
     { 
         
     }

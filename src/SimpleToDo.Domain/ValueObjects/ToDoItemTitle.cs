@@ -14,4 +14,7 @@ public record ToDoItemTitle
     }
 
     public string Value { get; }
+
+    public static implicit operator string(ToDoItemTitle name) => name.Value;
+    public static implicit operator ToDoItemTitle(string name) => new(name);
 }
