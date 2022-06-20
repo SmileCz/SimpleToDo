@@ -3,11 +3,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SimpleToDo.Core.Common;
 
-public abstract class BaseEntity
+public abstract class BaseEntity<T>
 {
     private readonly List<BaseEvent> _domainEvents = new();
 
-    public int Id { get; set; }
+    public virtual T Id { get; set; }
 
     [NotMapped] 
     public ReadOnlyCollection<BaseEvent> DomainEvents => _domainEvents.AsReadOnly();

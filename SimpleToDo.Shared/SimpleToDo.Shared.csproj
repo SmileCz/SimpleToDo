@@ -4,11 +4,6 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>SimpleToDo.Core</RootNamespace>
     </PropertyGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\..\SimpleToDo.Shared.Abstraction\SimpleToDo.Shared.Abstraction.csproj" />
-    </ItemGroup>
 
 </Project>

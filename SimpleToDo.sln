@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleToDo.Infrastructure",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleToDo.API", "src\SimpleToDo.API\SimpleToDo.API.csproj", "{991DE812-87A5-460E-B522-1E9F8E3E1890}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleToDo.Shared.Abstraction", "SimpleToDo.Shared.Abstraction\SimpleToDo.Shared.Abstraction.csproj", "{7E77DF38-86DE-440F-8F70-AE580DD90A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleToDo.Shared", "SimpleToDo.Shared\SimpleToDo.Shared.csproj", "{138A6A15-4576-409A-BE98-68EEE5DA6891}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{991DE812-87A5-460E-B522-1E9F8E3E1890}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{991DE812-87A5-460E-B522-1E9F8E3E1890}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{991DE812-87A5-460E-B522-1E9F8E3E1890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E77DF38-86DE-440F-8F70-AE580DD90A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E77DF38-86DE-440F-8F70-AE580DD90A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E77DF38-86DE-440F-8F70-AE580DD90A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E77DF38-86DE-440F-8F70-AE580DD90A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138A6A15-4576-409A-BE98-68EEE5DA6891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138A6A15-4576-409A-BE98-68EEE5DA6891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138A6A15-4576-409A-BE98-68EEE5DA6891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138A6A15-4576-409A-BE98-68EEE5DA6891}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

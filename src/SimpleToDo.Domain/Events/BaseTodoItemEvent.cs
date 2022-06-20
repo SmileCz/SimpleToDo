@@ -2,10 +2,10 @@ namespace SimpleToDo.Core.Events;
 
 public class BaseTodoItemEvent : BaseEvent
 {
-    public BaseTodoItemEvent(TodoItem item)
+    public BaseTodoItemEvent(ToDoItem item)
     {
         Item = item;
     }
 
-    public TodoItem Item { get; }
+    public ToDoItem Item { get; }
 }

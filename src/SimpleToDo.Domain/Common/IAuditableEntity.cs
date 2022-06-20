@@ -1,8 +1,8 @@
 namespace SimpleToDo.Core.Common;
 
-public abstract class BaseAuditableEntity<T> : BaseEntity<T>, IAuditableEntity
+public interface IAuditableEntity
 {
-    public virtual bool IsDeleted { get; set; }
+    public bool IsDeleted { get; set; }
     public DateTimeOffset Created { get; set; }
     public DateTimeOffset? LastModified { get; set; }
 
