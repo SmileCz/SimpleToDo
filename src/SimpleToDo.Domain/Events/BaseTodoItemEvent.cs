@@ -1,4 +1,7 @@
-namespace SimpleToDo.Core.Events;
+using SimpleToDo.Domain.Common;
+using SimpleToDo.Domain.Entities;
+
+namespace SimpleToDo.Domain.Events;
 
 public class BaseTodoItemEvent : BaseEvent
 {

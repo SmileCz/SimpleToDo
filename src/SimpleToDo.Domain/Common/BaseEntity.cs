@@ -1,7 +1,7 @@
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SimpleToDo.Core.Common;
+namespace SimpleToDo.Domain.Common;
 
 public abstract class BaseEntity<T>
 {

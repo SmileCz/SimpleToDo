@@ -1,18 +1,23 @@
 
 
-namespace SimpleToDo.Core.Entities;
+using SimpleToDo.Domain.Common;
+using SimpleToDo.Domain.Enums;
+using SimpleToDo.Domain.Events;
+using SimpleToDo.Domain.ValueObjects;
+
+namespace SimpleToDo.Domain.Entities;
 
 public class ToDoItem : BaseAuditableEntity<int>
 {
     private bool _done;
     private bool _isDeleted;
     private int _listId;
-    private ToDoItemNote _note;
+    private TodoItemNote _note;
     private PriorityLevel _priorityLevel;
     private DateTimeOffset _reminder;
-    private ToDoItemTitle _title;
+    private TodoItemTitle _title;
 
-    internal ToDoItem(int listId,ToDoItemTitle title, ToDoItemNote note, PriorityLevel priorityLevel, DateTimeOffset reminder)
+    internal ToDoItem(int listId,TodoItemTitle title, TodoItemNote note, PriorityLevel priorityLevel, DateTimeOffset reminder)
     {
         _listId = listId;
         _title = title;  

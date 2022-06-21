@@ -1,4 +1,4 @@
-namespace SimpleToDo.Core.Enums;
+namespace SimpleToDo.Domain.Enums;
 
 public enum PriorityLevel
 {

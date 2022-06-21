@@ -1,4 +1,4 @@
-namespace SimpleToDo.Core.Common;
+namespace SimpleToDo.Domain.Common;
 
 public abstract class BaseAuditableEntity<T> : BaseEntity<T>, IAuditableEntity
 {

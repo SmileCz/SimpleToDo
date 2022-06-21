@@ -1,6 +1,6 @@
+using SimpleToDo.Domain.Entities;
 
-
-namespace SimpleToDo.Core.Events;
+namespace SimpleToDo.Domain.Events;
 
 public class TodoItemCreatedEvent : BaseTodoItemEvent
 {

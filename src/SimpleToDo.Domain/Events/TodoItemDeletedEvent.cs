@@ -1,4 +1,6 @@
-namespace SimpleToDo.Core.Events;
+using SimpleToDo.Domain.Entities;
+
+namespace SimpleToDo.Domain.Events;
 
 public class TodoItemDeletedEvent : BaseTodoItemEvent
 {

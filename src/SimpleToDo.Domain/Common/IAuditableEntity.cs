@@ -1,4 +1,4 @@
-namespace SimpleToDo.Core.Common;
+namespace SimpleToDo.Domain.Common;
 
 public interface IAuditableEntity
 {
